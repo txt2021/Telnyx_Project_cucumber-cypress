@@ -20,8 +20,10 @@ jobs:
         node-version: '16.9.1'
     - name: Install dependencies
       run: npm ci
+    - name: Run Cypress Preprocessor
+      run: npm run cypress:proc
     - name: Run Cypress Tests
-      run: npm run cypress:execution    
+      run: npm run cypress:execution  
     - name: Generate Report
       if: always()
       run: npm run report:generate
