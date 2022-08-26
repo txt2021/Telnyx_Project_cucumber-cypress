@@ -1,0 +1,1100 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "blog-page;tc06---blog-search-work-on-telnyx",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "TC06 - Blog search work on Telnyx",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 2605000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user hover to \"Resources\" in the header menu",
+            "result": {
+              "duration": 251000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "A user clicks on \"Blog\"",
+            "result": {
+              "duration": 183000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "A user enters \"testing\" in the search field",
+            "result": {
+              "duration": 1956000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "A user presses Enter",
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Search results for \"testing\" was displayed. Page URL should contains \"search?q=testing\"",
+            "result": {
+              "duration": 1485000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "blog-page;tc07---blog-filter-by-product-work-on-telnyx",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "TC07 - Blog filter by product work on Telnyx",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 12,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1250000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 13,
+            "name": "A user hover to \"Resources\" in the header menu",
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "A user clicks on \"Blog\"",
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "A user Clicks on \"Fax\" button",
+            "result": {
+              "duration": 970000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 16,
+            "name": "\"Fax APIs, the basics and benefits. \" article title was displayed. Page URL should contains \"/resources?topic=Fax\"",
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "blog-page;tc08---blog-filter-by-content-work-on-telnyx",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "TC08 - Blog filter by content work on Telnyx",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 19,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1392000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 20,
+            "name": "A user hover to \"Resources\" in the header menu",
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 21,
+            "name": "A user clicks on \"Blog\"",
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 22,
+            "name": "A user clicks on \"News\u0026Events\" button",
+            "result": {
+              "duration": 1373000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 23,
+            "name": "\"News \u0026 Events\" header was displayed under the content filter. Page URL should contains \"/resources?category=News%20%26%20Events\"",
+            "result": {
+              "duration": 653000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "blog-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Blog page",
+    "uri": "cypress\\e2e\\features\\blog.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "saving-calculator;tc09---savings-calculator-work-with-default-settings-on-telnyx",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "TC09 - Savings Calculator work with default settings on Telnyx",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 2933000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user hover to \"Resources\" in the header menu",
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "A user clicks on \"Savings Calculator\"",
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "A user clicks on \"Voice API\" in \"Which products do you use?\" area",
+            "result": {
+              "duration": 1922000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "A user clicks on \"Continue\" button",
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "A user clicks on \"Continue\" button",
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "In \"Your savings\" area \"$4,152\" number was displayed. User stays on the same page",
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "saving-calculator;tc10---savings-calculator-work-with-custom-settings-on-telnyx",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "TC10 - Savings Calculator work with custom settings on Telnyx",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 13,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1182000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 14,
+            "name": "A user hover to \"Resources\" in the header menu",
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "A user clicks on \"Savings Calculator\"",
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 16,
+            "name": "A user clicks on \"Voice API\" in \"Which products do you use?\" area",
+            "result": {
+              "duration": 1608000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 17,
+            "name": "A user clicks on \"Continue\" button",
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 18,
+            "name": "A user clicks on plus button near the \"Local Numbers\"",
+            "result": {
+              "duration": 188000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 19,
+            "name": "A user clicks on minus button near the \"Toll-free Numbers\" two times",
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 20,
+            "name": "A user clicks on \"Continue\" button",
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 21,
+            "name": "In \"Your savings\" area \"$3,887\" number was displayed. User stays on the same page",
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "saving-calculator",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Saving calculator",
+    "uri": "cypress\\e2e\\features\\calculator.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "navigation-menu;tc11---navigation-to-all-telnyx-products-work",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "TC11 - Navigation to all Telnyx products work",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1842000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user hover to \"Products\" in the header menu",
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "A user clicks on \"See all products\"",
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "\"Products\" header was displayed. Page url shoud include \"/products\"",
+            "result": {
+              "duration": 1291000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "navigation-menu;tc12---navigation-to-all-telnyx-solutions-work",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "TC12 - Navigation to all Telnyx solutions work",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 10,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1247000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "Hover to \"Solutions\" in the header menu",
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "A user clicks on \"See all solutions\"",
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Solutions for Your Business\" header was displayed. Page url shoud include \"/solutions\"",
+            "result": {
+              "duration": 979000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "navigation-menu;tc13---navigation-to-all-telnyx-pricing-work",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "TC13 - Navigation to all Telnyx pricing work",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 16,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1121000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 17,
+            "name": "Hover to \"Pricing\" in the header menu",
+            "result": {
+              "duration": 230000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 18,
+            "name": "A user clicks on \"See all pricing\"",
+            "result": {
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 19,
+            "name": "\"Only pay for what you use\" pricing header was displayed. Page url shoud include \"/pricing\"",
+            "result": {
+              "duration": 631000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "navigation-menu",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Navigation menu",
+    "uri": "cypress\\e2e\\features\\navigation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sign-up-page;tc01---enter-incorrect-email-in-\"work-email\"-field-in-\"sign-up\"-form",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "TC01 - Enter incorrect email in \"work email\" field in \"Sign up\" form",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1930000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user clicks on \"Sign Up\" button",
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "A user enters \"testmail@com\" in \"Work email\" field",
+            "result": {
+              "duration": 1643000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "A user clicks on \"Create account\" button",
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "\"Please enter a valid email address\" message was displayed under the \"Work email\" field and user stays on the same page",
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sign-up-page;tc03---enter-equal-to-11-characters-password-in-\"password\"-field-in-\"sign-up\"-form",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "TC03 - Enter equal to 11 characters password in \"Password\" field in \"Sign up\" form",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 11,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1201000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 12,
+            "name": "A user clicks on \"Sign Up\" button",
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "A user enters 'T_123456789' in \"Password field\"",
+            "result": {
+              "duration": 1657000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "A user clicks on \"Create account\" button",
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "\"Be at least 12 characters long\" tip under the \"Password\" field must be red User stays on the same page",
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sign-up-page;tc02,tc04---enter-equal-to-12(13)-characters-password-in-\"password\"-field-in-\"sign-up\"-form;;2",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "TC02,TC04 - Enter equal to 12(13) characters password in \"Password\" field in \"Sign up\" form",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 18,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1203000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 19,
+            "name": "A user clicks on \"Sign Up\" button",
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 20,
+            "name": "A user enters 'T_1234567890' in \"Password field\"",
+            "result": {
+              "duration": 1634000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 21,
+            "name": "All \"Password must\" tips under the \"Password\" field must be green. User stays on the same page",
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sign-up-page;tc02,tc04---enter-equal-to-12(13)-characters-password-in-\"password\"-field-in-\"sign-up\"-form;;3",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "TC02,TC04 - Enter equal to 12(13) characters password in \"Password\" field in \"Sign up\" form",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 18,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1077000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 19,
+            "name": "A user clicks on \"Sign Up\" button",
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 20,
+            "name": "A user enters 'T_12345678901' in \"Password field\"",
+            "result": {
+              "duration": 1458000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 21,
+            "name": "All \"Password must\" tips under the \"Password\" field must be green. User stays on the same page",
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "sign-up-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Sign Up page",
+    "uri": "cypress\\e2e\\features\\signup.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "social-media-accounts;tc14---connection-to-telnyx-facebook-account",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "TC14 - Connection to Telnyx facebook account",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1848000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user scroll down to the footer",
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "A user clicks on \"Follow on Facebook\"",
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Telnyx facebook account was displayed",
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "social-media-accounts;tc15---connection-to-telnyx-twitter-account",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "TC15 - Connection to Telnyx twitter account",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 10,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 1207000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "A user scroll down to the footer",
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "A user clicks on \"Follow on Twitter\"",
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Telnyx twitter account was displayed",
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "social-media-accounts",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Social Media accounts",
+    "uri": "cypress\\e2e\\features\\socialmedia.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "join-the-waitlist;tc05---join-the-waitlist-on-telnyx",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "TC05 - Join the waitlist on Telnyx",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open main Telnyx page",
+            "result": {
+              "duration": 2047000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user clicks on \"Join the waitlist\" on the head of the page",
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "A user clicks on \"Join the waitlist\" green button on the opened page",
+            "result": {
+              "duration": 1202000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Application form for join the waitlist was displayed. Page URL should contains \"#form\"",
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "join-the-waitlist",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Join the waitlist",
+    "uri": "cypress\\e2e\\features\\waitlist.feature"
+  }
+]

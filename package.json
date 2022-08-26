@@ -1,0 +1,24 @@
+{
+  "name": "cypress-cucumber-Telnyx",
+  "version": "2.0.0",
+  "description": "This project for testing Telnyx website with the help of cypress and cucumber frameworks",
+  "scripts": {
+    "cypress:runner": "npx cypress open",
+    "cypress:execution": "npx cypress run",
+    "cypress:runner:cypress_chrome ui": "npx cypress open --config-file cypress_chrome.config.js --browser chrome",
+    "cypress:runner:cypress_edge ui": "npx cypress open --config-file cypress_edge.config.js --browser edge",
+    
+    "cypress:runner:cypress_chrome": "npx cypress run --config-file cypress_chrome.config.js --browser chrome",
+    "cypress:runner:cypress_edge": "npx cypress run --config-file cypress_edge.config.js --browser edge"
+  },
+  "author": "txt2021",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^10.4.0",
+    "esbuild": "^0.14.48",
+    "multiple-cucumber-html-reporter": "^1.21.6"
+  }
+  
+}
