@@ -30,17 +30,17 @@ jobs:
       if: always()
       with:
         name: Telnyx-testing-htmlreport.html
-        path: ./results                   
+        path: ./reports                 
     - name: Publishing HTML report to Github Actions
       uses: actions/upload-artifact@v2
       if: always()
       with:
         name: Telnyx-testing-htmlreport.html
-        path: ./results/Telnyx-testing-htmlreport.html      
+        path: ./reports/Telnyx-testing-htmlreport.html      
     - name: Deploy report
       uses: JamesIves/github-pages-deploy-action@4.1.4
       if: always()
       with:
         branch: report-branch 
-        folder: report
+        folder: reports
         
