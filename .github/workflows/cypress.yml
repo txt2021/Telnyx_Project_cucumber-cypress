@@ -1,0 +1,48 @@
+name: Telnyx(cypress+cucumber)
+
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16.9.1'
+    - name: Install dependencies
+      run: npm ci
+    - name: Run Cypress Tests
+      run: npm run cypress:execution    
+    - name: Copy History
+      if: always()
+      run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history
+    - name: Generate Report
+      if: always()
+      run: npm run report:generate
+    - name: Upload Results
+      uses: actions/upload-artifact@v1
+      if: always()
+      with:
+        name: Telnyx-testing-htmlreport.html
+        path: ./reports                   
+    - name: Publishing HTML report to Github Actions
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: Telnyx-testing-htmlreport.html
+        path: ./reports/Telnyx-testing-htmlreport.html      
+    - name: Deploy report
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      if: always()
+      with:
+        branch: report-branch 
+        folder: html-report 
