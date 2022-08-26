@@ -1,7 +1,7 @@
 # Telnyx_Project_cucumber-cypress
 Project for testing Telnyx website: https://telnyx.com/ using cypress and cucumber frameworks
 
-15 test cases for sign up, blog, saving calculator, navigation, waitlist and social netwoks area
+15 test cases for sign up, blog, saving calculator, navigation, waitlist and social netwoks areas
 ## Requirements
 cypress: ^10.6.0
 
