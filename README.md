@@ -16,10 +16,10 @@ npm install
 npm run cypress:execution
 
 ## Run in chrome browser
-npm run cypress:runner:cypress_chrome
+npm run cypress:runner::cypress_chrome
 
 ## Run in edge browser
-npm run cypress:runner:cypress_edge
+npm run cypress:runner::cypress_edge
 
 
 ## Open(UI)
