@@ -42,4 +42,3 @@ jobs:
       if: always()
       with:
         branch: report-branch 
-        folder: html-report 
