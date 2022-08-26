@@ -9,7 +9,8 @@
     "cypress:runner:cypress_edge ui": "npx cypress open --config-file cypress_edge.config.js --browser edge",
     
     "cypress:runner:cypress_chrome": "npx cypress run --config-file cypress_chrome.config.js --browser chrome",
-    "cypress:runner:cypress_edge": "npx cypress run --config-file cypress_edge.config.js --browser edge"
+    "cypress:runner:cypress_edge": "npx cypress run --config-file cypress_edge.config.js --browser edge",
+    "report:generate": "node ./cucumber-html-report.js"
   },
   "author": "txt2021",
   "license": "ISC",

@@ -14,7 +14,7 @@
             "line": 4,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 2605000000,
+              "duration": 2544000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 5,
             "name": "A user hover to \"Resources\" in the header menu",
             "result": {
-              "duration": 251000000,
+              "duration": 296000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 6,
             "name": "A user clicks on \"Blog\"",
             "result": {
-              "duration": 183000000,
+              "duration": 186000000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,7 @@
             "line": 7,
             "name": "A user enters \"testing\" in the search field",
             "result": {
-              "duration": 1956000000,
+              "duration": 2000000000,
               "status": "passed"
             },
             "match": {
@@ -62,7 +62,7 @@
             "line": 8,
             "name": "A user presses Enter",
             "result": {
-              "duration": 197000000,
+              "duration": 148000000,
               "status": "passed"
             },
             "match": {
@@ -74,7 +74,7 @@
             "line": 9,
             "name": "Search results for \"testing\" was displayed. Page URL should contains \"search?q=testing\"",
             "result": {
-              "duration": 1485000000,
+              "duration": 1914000000,
               "status": "passed"
             },
             "match": {
@@ -96,7 +96,7 @@
             "line": 12,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1250000000,
+              "duration": 1245000000,
               "status": "passed"
             },
             "match": {
@@ -108,7 +108,7 @@
             "line": 13,
             "name": "A user hover to \"Resources\" in the header menu",
             "result": {
-              "duration": 112000000,
+              "duration": 115000000,
               "status": "passed"
             },
             "match": {
@@ -120,7 +120,7 @@
             "line": 14,
             "name": "A user clicks on \"Blog\"",
             "result": {
-              "duration": 106000000,
+              "duration": 107000000,
               "status": "passed"
             },
             "match": {
@@ -132,7 +132,7 @@
             "line": 15,
             "name": "A user Clicks on \"Fax\" button",
             "result": {
-              "duration": 970000000,
+              "duration": 1226000000,
               "status": "passed"
             },
             "match": {
@@ -144,7 +144,7 @@
             "line": 16,
             "name": "\"Fax APIs, the basics and benefits. \" article title was displayed. Page URL should contains \"/resources?topic=Fax\"",
             "result": {
-              "duration": 258000000,
+              "duration": 499000000,
               "status": "passed"
             },
             "match": {
@@ -166,7 +166,7 @@
             "line": 19,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1392000000,
+              "duration": 1370000000,
               "status": "passed"
             },
             "match": {
@@ -178,7 +178,7 @@
             "line": 20,
             "name": "A user hover to \"Resources\" in the header menu",
             "result": {
-              "duration": 112000000,
+              "duration": 129000000,
               "status": "passed"
             },
             "match": {
@@ -190,7 +190,7 @@
             "line": 21,
             "name": "A user clicks on \"Blog\"",
             "result": {
-              "duration": 105000000,
+              "duration": 150000000,
               "status": "passed"
             },
             "match": {
@@ -202,7 +202,7 @@
             "line": 22,
             "name": "A user clicks on \"News\u0026Events\" button",
             "result": {
-              "duration": 1373000000,
+              "duration": 1432000000,
               "status": "passed"
             },
             "match": {
@@ -214,7 +214,7 @@
             "line": 23,
             "name": "\"News \u0026 Events\" header was displayed under the content filter. Page URL should contains \"/resources?category=News%20%26%20Events\"",
             "result": {
-              "duration": 653000000,
+              "duration": 753000000,
               "status": "passed"
             },
             "match": {
@@ -246,7 +246,7 @@
             "line": 4,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 2933000000,
+              "duration": 2326000000,
               "status": "passed"
             },
             "match": {
@@ -258,7 +258,7 @@
             "line": 5,
             "name": "A user hover to \"Resources\" in the header menu",
             "result": {
-              "duration": 137000000,
+              "duration": 250000000,
               "status": "passed"
             },
             "match": {
@@ -270,7 +270,7 @@
             "line": 6,
             "name": "A user clicks on \"Savings Calculator\"",
             "result": {
-              "duration": 110000000,
+              "duration": 155000000,
               "status": "passed"
             },
             "match": {
@@ -282,7 +282,7 @@
             "line": 7,
             "name": "A user clicks on \"Voice API\" in \"Which products do you use?\" area",
             "result": {
-              "duration": 1922000000,
+              "duration": 1602000000,
               "status": "passed"
             },
             "match": {
@@ -294,7 +294,7 @@
             "line": 8,
             "name": "A user clicks on \"Continue\" button",
             "result": {
-              "duration": 255000000,
+              "duration": 361000000,
               "status": "passed"
             },
             "match": {
@@ -306,7 +306,7 @@
             "line": 9,
             "name": "A user clicks on \"Continue\" button",
             "result": {
-              "duration": 190000000,
+              "duration": 249000000,
               "status": "passed"
             },
             "match": {
@@ -318,7 +318,7 @@
             "line": 10,
             "name": "In \"Your savings\" area \"$4,152\" number was displayed. User stays on the same page",
             "result": {
-              "duration": 27000000,
+              "duration": 64000000,
               "status": "passed"
             },
             "match": {
@@ -352,7 +352,7 @@
             "line": 14,
             "name": "A user hover to \"Resources\" in the header menu",
             "result": {
-              "duration": 162000000,
+              "duration": 138000000,
               "status": "passed"
             },
             "match": {
@@ -364,7 +364,7 @@
             "line": 15,
             "name": "A user clicks on \"Savings Calculator\"",
             "result": {
-              "duration": 115000000,
+              "duration": 116000000,
               "status": "passed"
             },
             "match": {
@@ -376,7 +376,7 @@
             "line": 16,
             "name": "A user clicks on \"Voice API\" in \"Which products do you use?\" area",
             "result": {
-              "duration": 1608000000,
+              "duration": 927000000,
               "status": "passed"
             },
             "match": {
@@ -388,7 +388,7 @@
             "line": 17,
             "name": "A user clicks on \"Continue\" button",
             "result": {
-              "duration": 204000000,
+              "duration": 253000000,
               "status": "passed"
             },
             "match": {
@@ -400,7 +400,7 @@
             "line": 18,
             "name": "A user clicks on plus button near the \"Local Numbers\"",
             "result": {
-              "duration": 188000000,
+              "duration": 143000000,
               "status": "passed"
             },
             "match": {
@@ -412,7 +412,7 @@
             "line": 19,
             "name": "A user clicks on minus button near the \"Toll-free Numbers\" two times",
             "result": {
-              "duration": 227000000,
+              "duration": 216000000,
               "status": "passed"
             },
             "match": {
@@ -424,7 +424,7 @@
             "line": 20,
             "name": "A user clicks on \"Continue\" button",
             "result": {
-              "duration": 143000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "match": {
@@ -436,7 +436,7 @@
             "line": 21,
             "name": "In \"Your savings\" area \"$3,887\" number was displayed. User stays on the same page",
             "result": {
-              "duration": 43000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "match": {
@@ -468,7 +468,7 @@
             "line": 4,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1842000000,
+              "duration": 1981000000,
               "status": "passed"
             },
             "match": {
@@ -480,7 +480,7 @@
             "line": 5,
             "name": "A user hover to \"Products\" in the header menu",
             "result": {
-              "duration": 255000000,
+              "duration": 289000000,
               "status": "passed"
             },
             "match": {
@@ -492,7 +492,7 @@
             "line": 6,
             "name": "A user clicks on \"See all products\"",
             "result": {
-              "duration": 170000000,
+              "duration": 414000000,
               "status": "passed"
             },
             "match": {
@@ -504,7 +504,7 @@
             "line": 7,
             "name": "\"Products\" header was displayed. Page url shoud include \"/products\"",
             "result": {
-              "duration": 1291000000,
+              "duration": 1655000000,
               "status": "passed"
             },
             "match": {
@@ -526,7 +526,7 @@
             "line": 10,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1247000000,
+              "duration": 1644000000,
               "status": "passed"
             },
             "match": {
@@ -538,7 +538,7 @@
             "line": 11,
             "name": "Hover to \"Solutions\" in the header menu",
             "result": {
-              "duration": 112000000,
+              "duration": 174000000,
               "status": "passed"
             },
             "match": {
@@ -550,7 +550,7 @@
             "line": 12,
             "name": "A user clicks on \"See all solutions\"",
             "result": {
-              "duration": 81000000,
+              "duration": 123000000,
               "status": "passed"
             },
             "match": {
@@ -562,7 +562,7 @@
             "line": 13,
             "name": "\"Solutions for Your Business\" header was displayed. Page url shoud include \"/solutions\"",
             "result": {
-              "duration": 979000000,
+              "duration": 1187000000,
               "status": "passed"
             },
             "match": {
@@ -584,7 +584,7 @@
             "line": 16,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1121000000,
+              "duration": 1512000000,
               "status": "passed"
             },
             "match": {
@@ -596,7 +596,7 @@
             "line": 17,
             "name": "Hover to \"Pricing\" in the header menu",
             "result": {
-              "duration": 230000000,
+              "duration": 107000000,
               "status": "passed"
             },
             "match": {
@@ -608,7 +608,7 @@
             "line": 18,
             "name": "A user clicks on \"See all pricing\"",
             "result": {
-              "duration": 219000000,
+              "duration": 117000000,
               "status": "passed"
             },
             "match": {
@@ -620,7 +620,7 @@
             "line": 19,
             "name": "\"Only pay for what you use\" pricing header was displayed. Page url shoud include \"/pricing\"",
             "result": {
-              "duration": 631000000,
+              "duration": 1106000000,
               "status": "passed"
             },
             "match": {
@@ -652,7 +652,7 @@
             "line": 4,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1930000000,
+              "duration": 1910000000,
               "status": "passed"
             },
             "match": {
@@ -664,7 +664,7 @@
             "line": 5,
             "name": "A user clicks on \"Sign Up\" button",
             "result": {
-              "duration": 274000000,
+              "duration": 320000000,
               "status": "passed"
             },
             "match": {
@@ -676,7 +676,7 @@
             "line": 6,
             "name": "A user enters \"testmail@com\" in \"Work email\" field",
             "result": {
-              "duration": 1643000000,
+              "duration": 2814000000,
               "status": "passed"
             },
             "match": {
@@ -688,7 +688,7 @@
             "line": 7,
             "name": "A user clicks on \"Create account\" button",
             "result": {
-              "duration": 162000000,
+              "duration": 153000000,
               "status": "passed"
             },
             "match": {
@@ -700,7 +700,7 @@
             "line": 8,
             "name": "\"Please enter a valid email address\" message was displayed under the \"Work email\" field and user stays on the same page",
             "result": {
-              "duration": 91000000,
+              "duration": 85000000,
               "status": "passed"
             },
             "match": {
@@ -722,7 +722,7 @@
             "line": 11,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1201000000,
+              "duration": 1640000000,
               "status": "passed"
             },
             "match": {
@@ -734,7 +734,7 @@
             "line": 12,
             "name": "A user clicks on \"Sign Up\" button",
             "result": {
-              "duration": 170000000,
+              "duration": 200000000,
               "status": "passed"
             },
             "match": {
@@ -746,7 +746,7 @@
             "line": 13,
             "name": "A user enters 'T_123456789' in \"Password field\"",
             "result": {
-              "duration": 1657000000,
+              "duration": 1597000000,
               "status": "passed"
             },
             "match": {
@@ -758,7 +758,7 @@
             "line": 14,
             "name": "A user clicks on \"Create account\" button",
             "result": {
-              "duration": 146000000,
+              "duration": 145000000,
               "status": "passed"
             },
             "match": {
@@ -770,7 +770,7 @@
             "line": 15,
             "name": "\"Be at least 12 characters long\" tip under the \"Password\" field must be red User stays on the same page",
             "result": {
-              "duration": 156000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "match": {
@@ -792,7 +792,7 @@
             "line": 18,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1203000000,
+              "duration": 1712000000,
               "status": "passed"
             },
             "match": {
@@ -804,7 +804,7 @@
             "line": 19,
             "name": "A user clicks on \"Sign Up\" button",
             "result": {
-              "duration": 97000000,
+              "duration": 141000000,
               "status": "passed"
             },
             "match": {
@@ -816,7 +816,7 @@
             "line": 20,
             "name": "A user enters 'T_1234567890' in \"Password field\"",
             "result": {
-              "duration": 1634000000,
+              "duration": 2333000000,
               "status": "passed"
             },
             "match": {
@@ -828,7 +828,7 @@
             "line": 21,
             "name": "All \"Password must\" tips under the \"Password\" field must be green. User stays on the same page",
             "result": {
-              "duration": 165000000,
+              "duration": 103000000,
               "status": "passed"
             },
             "match": {
@@ -850,7 +850,7 @@
             "line": 18,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1077000000,
+              "duration": 1163000000,
               "status": "passed"
             },
             "match": {
@@ -862,7 +862,7 @@
             "line": 19,
             "name": "A user clicks on \"Sign Up\" button",
             "result": {
-              "duration": 108000000,
+              "duration": 132000000,
               "status": "passed"
             },
             "match": {
@@ -874,7 +874,7 @@
             "line": 20,
             "name": "A user enters 'T_12345678901' in \"Password field\"",
             "result": {
-              "duration": 1458000000,
+              "duration": 1654000000,
               "status": "passed"
             },
             "match": {
@@ -886,7 +886,7 @@
             "line": 21,
             "name": "All \"Password must\" tips under the \"Password\" field must be green. User stays on the same page",
             "result": {
-              "duration": 127000000,
+              "duration": 59000000,
               "status": "passed"
             },
             "match": {
@@ -918,7 +918,7 @@
             "line": 4,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1848000000,
+              "duration": 2150000000,
               "status": "passed"
             },
             "match": {
@@ -930,7 +930,7 @@
             "line": 5,
             "name": "A user scroll down to the footer",
             "result": {
-              "duration": 176000000,
+              "duration": 196000000,
               "status": "passed"
             },
             "match": {
@@ -942,7 +942,7 @@
             "line": 6,
             "name": "A user clicks on \"Follow on Facebook\"",
             "result": {
-              "duration": 311000000,
+              "duration": 370000000,
               "status": "passed"
             },
             "match": {
@@ -954,7 +954,7 @@
             "line": 7,
             "name": "Telnyx facebook account was displayed",
             "result": {
-              "duration": 120000000,
+              "duration": 75000000,
               "status": "passed"
             },
             "match": {
@@ -976,7 +976,7 @@
             "line": 10,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 1207000000,
+              "duration": 1604000000,
               "status": "passed"
             },
             "match": {
@@ -988,7 +988,7 @@
             "line": 11,
             "name": "A user scroll down to the footer",
             "result": {
-              "duration": 105000000,
+              "duration": 93000000,
               "status": "passed"
             },
             "match": {
@@ -1000,7 +1000,7 @@
             "line": 12,
             "name": "A user clicks on \"Follow on Twitter\"",
             "result": {
-              "duration": 304000000,
+              "duration": 232000000,
               "status": "passed"
             },
             "match": {
@@ -1012,7 +1012,7 @@
             "line": 13,
             "name": "Telnyx twitter account was displayed",
             "result": {
-              "duration": 87000000,
+              "duration": 65000000,
               "status": "passed"
             },
             "match": {
@@ -1044,7 +1044,7 @@
             "line": 4,
             "name": "A user open main Telnyx page",
             "result": {
-              "duration": 2047000000,
+              "duration": 2086000000,
               "status": "passed"
             },
             "match": {
@@ -1056,7 +1056,7 @@
             "line": 5,
             "name": "A user clicks on \"Join the waitlist\" on the head of the page",
             "result": {
-              "duration": 231000000,
+              "duration": 249000000,
               "status": "passed"
             },
             "match": {
@@ -1068,7 +1068,7 @@
             "line": 6,
             "name": "A user clicks on \"Join the waitlist\" green button on the opened page",
             "result": {
-              "duration": 1202000000,
+              "duration": 1607000000,
               "status": "passed"
             },
             "match": {
@@ -1080,7 +1080,7 @@
             "line": 7,
             "name": "Application form for join the waitlist was displayed. Page URL should contains \"#form\"",
             "result": {
-              "duration": 359000000,
+              "duration": 276000000,
               "status": "passed"
             },
             "match": {
