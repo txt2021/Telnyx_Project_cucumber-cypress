@@ -1,6 +1,6 @@
 import {Given,When,And,Then,} from "@badeball/cypress-cucumber-preprocessor";
 
-import SignUpPage from 'D:/trainee/Telnyx_Project_v2/cypress/pages/SignUpPage.js'
+import SignUpPage from '../../pages/SignUpPage.js'
 import LendingPage from '../../pages/LendingPage.js'
 import WaitlistPage from '../../pages/WaitlistPage.js'
 import BlogPage from '../../pages/BlogPage.js'
