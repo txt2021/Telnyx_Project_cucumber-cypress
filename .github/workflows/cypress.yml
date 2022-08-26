@@ -22,9 +22,6 @@ jobs:
       run: npm ci
     - name: Run Cypress Tests
       run: npm run cypress:execution    
-    - name: Copy History
-      if: always()
-      run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history
     - name: Generate Report
       if: always()
       run: npm run report:generate
