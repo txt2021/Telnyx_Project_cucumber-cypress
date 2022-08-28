@@ -28,7 +28,7 @@ jobs:
       uses: cpina/github-action-push-to-another-repository@main
       if: always()
       env:
-        API_TOKEN_GITHUB: ${{ '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' }}
+        API_TOKEN_GITHUB: ${{ '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' }}
       with:
         source-directory: 'cucumber-reports'
         destination-github-username: 'txt2021'
