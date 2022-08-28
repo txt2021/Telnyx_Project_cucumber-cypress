@@ -24,20 +24,15 @@ jobs:
       run: npm run cypress:proc
     - name: Run Cypress Tests
       run: npm run cypress:execution  
-    - name: Upload Results
-      uses: actions/upload-artifact@v1
+    - name: Push to repository
+      uses: cpina/github-action-push-to-another-repository@main
       if: always()
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.ACCESS_TOKEN }}
       with:
-        name: cucumber-report.html
-    - name: Publishing HTML report to Github Actions
-      uses: actions/upload-artifact@v2
-      if: always()
-      with:
-        name: cucumber-report.html
-    - name: Deploy report
-      uses: JamesIves/github-pages-deploy-action@4.1.4
-      if: always()
-      with:
-        branch: report-branch 
-        folder: reports
+        source-file: 'cucumber-report.html'
+        destination-github-username: 'txt2021'
+        destination-repository-name: 'Telnyx_Project_cucumber-cypress'
+        user-email: txt2021@gmail.com
+        target-branch: report-branch
         
