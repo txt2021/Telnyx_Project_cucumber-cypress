@@ -3,9 +3,9 @@ name: Telnyx(cypress+cucumber)
 
 on:
   push:
-    branches: [ "main"]
+    branches: [main,master]
   pull_request:
-    branches: [ "main" ]
+    branches: [main,master]
 
   workflow_dispatch:
 
@@ -28,11 +28,10 @@ jobs:
       uses: cpina/github-action-push-to-another-repository@main
       if: always()
       env:
-        API_TOKEN_GITHUB: ${{ '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' }}
+        API_TOKEN_GITHUB: ${{ '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' }}
       with:
-        source-directory: 'cucumber-reports'
+        source-directory: 'cucumber-reports/'
         destination-github-username: 'txt2021'
-        user-name: txt2021
         destination-repository-name: 'Telnyx_Project_cucumber-cypress'
         user-email: txt2021@gmail.com
         target-branch: report-branch
