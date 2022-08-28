@@ -29,13 +29,11 @@ jobs:
       if: always()
       with:
         name: cucumber-report.html
-        path: .                 
     - name: Publishing HTML report to Github Actions
       uses: actions/upload-artifact@v2
       if: always()
       with:
         name: cucumber-report.html
-        path: .    
     - name: Deploy report
       uses: JamesIves/github-pages-deploy-action@4.1.4
       if: always()
