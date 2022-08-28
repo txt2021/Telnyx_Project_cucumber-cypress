@@ -3,9 +3,9 @@ name: Telnyx(cypress+cucumber)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main","report-branch" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main","report-branch" ]
 
   workflow_dispatch:
 
@@ -32,6 +32,7 @@ jobs:
       with:
         source-directory: 'cucumber-reports'
         destination-github-username: 'txt2021'
+        destination-github-password: '21012001Tt'
         destination-repository-name: 'Telnyx_Project_cucumber-cypress'
         user-email: txt2021@gmail.com
         target-branch: report-branch
