@@ -24,21 +24,18 @@ jobs:
       run: npm run cypress:proc
     - name: Run Cypress Tests
       run: npm run cypress:execution  
-    - name: Generate Report
-      if: always()
-      run: npm run report:generate
     - name: Upload Results
       uses: actions/upload-artifact@v1
       if: always()
       with:
-        name: Telnyx-testing-htmlreport.html
-        path: ./reports                 
+        name: cucumber-report.html
+        path: .                 
     - name: Publishing HTML report to Github Actions
       uses: actions/upload-artifact@v2
       if: always()
       with:
-        name: Telnyx-testing-htmlreport.html
-        path: ./reports/Telnyx-testing-htmlreport.html      
+        name: cucumber-report.html
+        path: .    
     - name: Deploy report
       uses: JamesIves/github-pages-deploy-action@4.1.4
       if: always()
