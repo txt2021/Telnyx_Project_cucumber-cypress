@@ -30,7 +30,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ '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' }}
       with:
-        source-before-directory: 'cucumber-report.html'
+        source-directory: 'cucumber-reports'
         destination-github-username: 'txt2021'
         destination-repository-name: 'Telnyx_Project_cucumber-cypress'
         user-email: txt2021@gmail.com
