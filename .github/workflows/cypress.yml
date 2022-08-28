@@ -28,11 +28,11 @@ jobs:
       uses: cpina/github-action-push-to-another-repository@main
       if: always()
       env:
-        API_TOKEN_GITHUB: ${{ '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' }}
+        API_TOKEN_GITHUB: ${{ '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' }}
       with:
         source-directory: 'cucumber-reports'
         destination-github-username: 'txt2021'
-        destination-repository-name: 'Telnyx_Project_cucumber-cypress'
+        destination-repository-name: 'txt2021/Telnyx_Project_cucumber-cypress'
         user-email: txt2021@gmail.com
         target-branch: report-branch
         
