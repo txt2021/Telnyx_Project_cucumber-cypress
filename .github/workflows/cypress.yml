@@ -32,7 +32,7 @@ jobs:
       with:
         source-directory: 'cucumber-reports'
         destination-github-username: 'txt2021'
-        user-name: 'txt2021'
+        user-name: txt2021
         destination-repository-name: 'Telnyx_Project_cucumber-cypress'
         user-email: txt2021@gmail.com
         target-branch: report-branch
