@@ -1,7 +1,8 @@
 {
     
     "html": {
-      "enabled": true
+      "enabled": true,
+      "output":"cucumber-reports/telnyx-html-report.html"
     },
     "stepDefinitions": [
         "[filepath]/**/*.{js,ts}",
