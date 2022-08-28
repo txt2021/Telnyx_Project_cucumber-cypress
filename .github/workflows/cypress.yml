@@ -24,11 +24,11 @@ jobs:
       run: npm run cypress:proc
     - name: Run Cypress Tests
       run: npm run cypress:execution  
-    - name: Push to repository
+    - name: Push report to branch
       uses: cpina/github-action-push-to-another-repository@main
       if: always()
       env:
-        API_TOKEN_GITHUB: ${{ secrets.ACCESS_TOKEN }}
+        API_TOKEN_GITHUB: ${{ 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 }}
       with:
         source-file: 'cucumber-report.html'
         destination-github-username: 'txt2021'
