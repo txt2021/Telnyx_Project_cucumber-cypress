@@ -6,7 +6,6 @@
 # Node artifact files
 node_modules/
 dist/
-cucumber-report.html
 reports/
 
 # Compiled Java class files
