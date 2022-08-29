@@ -1,15 +1,8 @@
 {
-    "json": {
-      "enabled": true,
-      "output": "jsonlogs/log.json",
-      "formatter": "cucumber-json-formatter"
-    },
-    "messages": {
-      "enabled": true,
-      "output": "jsonlogs/messages.ndjson"
-    },
+   
     "html": {
-      "enabled": true
+      "enabled": true,
+      "output":"cucumber-reports/index.html"
     },
     "stepDefinitions": [
         "[filepath]/**/*.{js,ts}",

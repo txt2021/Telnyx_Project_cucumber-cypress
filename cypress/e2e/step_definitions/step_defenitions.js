@@ -1,15 +1,10 @@
 import {Given,When,And,Then,} from "@badeball/cypress-cucumber-preprocessor";
 
-import SignUpPage from '../../pages/SignUpPage.js'
-import LendingPage from '../../pages/LendingPage.js'
-import WaitlistPage from '../../pages/WaitlistPage.js'
-import BlogPage from '../../pages/BlogPage.js'
-import CalculatorPage from '../../pages/CalculatorPage.js'
-const signupPage = new SignUpPage();
-const lendingPage = new LendingPage();
-const waitlistPage = new WaitlistPage();
-const blogPage = new BlogPage();
-const calcPage = new CalculatorPage();
+const blogPage = require('../../pages/BlogPage.js');
+const calcPage = require('../../pages/CalculatorPage.js');
+const signupPage = require('../../pages/SignUpPage.js');
+const lendingPage = require('../../pages/LendingPage.js');
+const waitlistPage = require('../../pages/WaitlistPage.js');
 
 
 Given('A user open main Telnyx page', () => {
@@ -27,21 +22,21 @@ And('A user clicks on "Create account" button', () => {
   signupPage.clicksubmitButton();
 });
 Then('"Please enter a valid email address" message was displayed under the "Work email" field and user stays on the same page', () => {
-  cy.url().should('include', '/sign-up')    
-  cy.get('[id="email_error"]').should('be.visible')
+  lendingPage.getUrl().should('include', '/sign-up')    
+  signupPage.getEmail().should('be.visible')
 });
 And('A user enters {string} in "Password field"', (password) => {
      signupPage.enterPassword(password);  
 });
 Then('All "Password must" tips under the "Password" field must be green. User stays on the same page', () => {
-  cy.url().should('include', '/sign-up')    
-  cy.get('#password_requirements > div').should(($lis) => {
+  lendingPage.getUrl().should('include', '/sign-up')    
+  signupPage.getPass().should(($lis) => {
     expect($lis).to.have.class('sc-3f0fa74c-5 leCkmJ')
   })
 });
 Then('"Be at least 12 characters long" tip under the "Password" field must be red User stays on the same page', () => {
-  cy.url().should('include', '/sign-up')    
-  cy.get('#password_requirements > div.sc-3f0fa74c-5.dlOEFS').should('have.class', 'sc-3f0fa74c-5 dlOEFS')
+  lendingPage.getUrl().should('include', '/sign-up')    
+  signupPage.getTips().should('have.class', 'sc-3f0fa74c-5 dlOEFS')
 
 });
 
@@ -53,8 +48,8 @@ And('A user clicks on "Join the waitlist" green button on the opened page', () =
   waitlistPage.clickwaitlistButton();  
 });
 Then('Application form for join the waitlist was displayed. Page URL should contains "#form"', () => {
-  cy.url().should('include', '/storage#form')    
-  cy.get('[id="mktoForm_2272"]').should('be.visible')
+  waitlistPage.getUrl().should('include', '/storage#form')    
+  waitlistPage.getForm().should('be.visible')
 
 });
 
@@ -85,20 +80,20 @@ And('A user clicks on "News&Events" button', () => {
 
 
 Then('Search results for {string} was displayed. Page URL should contains {string}', (searchtext,urlpart) => {
-  cy.url().should('include', urlpart)    
-  cy.get('[class="Text-sc-5o8owa-0 sc-438b0f02-3 ijJVSH kWhBMu"]').should('have.text',"Search results for " + '"'+ searchtext +'"')
+  blogPage.getUrl().should('include', urlpart)    
+  blogPage.getResult().should('have.text',"Search results for " + '"'+ searchtext +'"')
 
 });
 
 Then('{string} article title was displayed. Page URL should contains {string}', (searchtext,urlpart) => {
-  cy.url().should('include', urlpart)    
-  cy.get('#articles > div > a:nth-child(1) > article > div.sc-b43e299b-4.gwdLhq > h2').should('have.text',searchtext)
+  blogPage.getUrl().should('include', urlpart)    
+  blogPage.getTitle().should('have.text',searchtext)
 
 });
 
 Then('{string} header was displayed under the content filter. Page URL should contains {string}', (searchtext,urlpart) => {
-  cy.url().should('include', urlpart)    
-  cy.get('#articles > div > a:nth-child(1) > article > div.sc-b43e299b-4.gwdLhq > header > span > span').should('have.text',searchtext)
+  blogPage.getUrl().should('include', urlpart)    
+  blogPage.getHeader().should('have.text',searchtext)
 
 });
 
@@ -127,8 +122,8 @@ And('A user clicks on minus button near the "Toll-free Numbers" two times', () =
 
 
 Then('In "Your savings" area {string} number was displayed. User stays on the same page', (searchtext) => {
-  cy.url().should('include', '/twilio-pricing-calculator')    
-  //cy.get('[class="Text-sc-5o8owa-0 sc-c7d3cfaa-1 gBsjXt fdlLDD"]').should('have.text',searchtext +"/ year")
+  calcPage.getUrl().should('include', '/twilio-pricing-calculator')    
+  //calcPage.getResult().should('have.text',searchtext +"/ year")
 
 });
 
@@ -164,13 +159,13 @@ And('A user clicks on "See all pricing"', () => {
 });
 
 Then('{string} header was displayed. Page url shoud include {string}', (header,urltext) => {
-  cy.url().should('include', urltext)    
-  cy.get('[class="Text-sc-5o8owa-0 sc-ce3c78c4-2 clNvhv juvWNo"]').should('have.text',header)
+  lendingPage.getUrl().should('include', urltext)    
+  lendingPage.getHeader1().should('have.text',header)
 
 });
 Then('{string} pricing header was displayed. Page url shoud include {string}', (header,urltext) => {
-  cy.url().should('include', urltext)    
-  cy.get('[class="Text-sc-5o8owa-0 sc-e6b6263e-3 clNvhv hEmNaW"] span').should('have.text',header)
+  lendingPage.getUrl().should('include', urltext)    
+  lendingPage.getHeader2().should('have.text',header)
 
 });
 
@@ -191,11 +186,11 @@ And('A user clicks on "Follow on Twitter"', () => {
 });
 
 Then('Telnyx facebook account was displayed', () => {  
-  cy.get('a[href="https://www.facebook.com/Telnyx/"]').should('have.attr', 'target', '_blank')
+  lendingPage.getFacebook().should('have.attr', 'target', '_blank')
 
 });
 
 Then('Telnyx twitter account was displayed', () => {  
-  cy.get('a[href="https://twitter.com/telnyx"]').should('have.attr', 'target', '_blank')
+  lendingPage.getTwitter().should('have.attr', 'target', '_blank')
 
 });

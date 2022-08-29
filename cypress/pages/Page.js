@@ -8,5 +8,11 @@ scrollIntoView(locator){
     cy.get(locator).scrollIntoView();
 }
 
+type(locator,text){
+    cy.get(locator).type(text,{ force: true });
 }
-export default Page
+
+
+
+}
+module.exports = new Page()

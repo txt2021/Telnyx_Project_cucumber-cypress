@@ -1,5 +1,4 @@
-import Page from './Page.cy.js'
-const page = new Page();
+const page = require('./Page.js');
 
 
 
@@ -14,8 +13,34 @@ const pricingButton = '[class="sc-f97529d6-0 bjUuRN sc-b74bae4-0 sc-b74bae4-1 fV
 const footer = '[class="sc-7b6c9f9b-3 iznSjj"]';
 const facebook = '[href="https://www.facebook.com/Telnyx/"]';
 const twitter = '[href="https://twitter.com/telnyx"]';
+const source1 = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(6) > span'
+const product1 = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(1)'
+const solution1 = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(3)'
+const price1= '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(10)'
+const nav_header1= '[class="Text-sc-5o8owa-0 sc-ce3c78c4-2 clNvhv juvWNo"]';
+const nav_header2= '[class="Text-sc-5o8owa-0 sc-e6b6263e-3 clNvhv hEmNaW"] span';
+const facebook_link = 'a[href="https://www.facebook.com/Telnyx/"]';
+const twitter_link ='a[href="https://twitter.com/telnyx"]';
 
-class LendingPage {   
+class LendingPage {
+    getUrl(){
+        return cy.url();
+    }
+    
+    getHeader1(){
+        return cy.get(nav_header1)
+    }
+    getHeader2(){
+        return cy.get(nav_header2)
+    }
+
+    getFacebook(){
+        return cy.get(facebook_link)
+    }
+
+    getTwitter(){
+        return cy.get(twitter_link)
+    }
     
     clicksignupButton() {
         page.clickforce(signupButton);
@@ -26,19 +51,19 @@ class LendingPage {
     }  
    
     hoverresourcesButton() {
-        cy.get('#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(6) > span').click({ force: true })
+        page.clickforce(source1);
     } 
 
     hoverproductsButton() {
-        cy.get('#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(1)').click({ force: true })
+        page.clickforce(product1)
     } 
 
     hoversolutionsButton() {
-        cy.get('#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(3)').click({ force: true })
+        page.clickforce(solution1)
     } 
 
     hoverpricingButton() {
-        cy.get('#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(10)').click({ force: true })
+        page.clickforce(price1)
     } 
 
     clickblogButton(){
@@ -74,4 +99,4 @@ class LendingPage {
 
  
 }
-export default LendingPage
+module.exports = new LendingPage()
