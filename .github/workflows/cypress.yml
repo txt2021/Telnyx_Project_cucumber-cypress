@@ -24,15 +24,15 @@ jobs:
       run: npm run cypress:proc
     - name: Run Cypress Tests
       run: npm run cypress:execution  
-   # - name: Push report to branch
-   #   uses: cpina/github-action-push-to-another-repository@main
-   #   if: always()
-   #   env:
-   #     API_TOKEN_GITHUB: ${{ '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' }}
-   #   with:
-   #     source-directory: 'cucumber-reports/'
-   #     destination-github-username: 'txt2021'
-   #     destination-repository-name: 'Telnyx_Project_cucumber-cypress'
-   #     user-email: txt2021@gmail.com
-   #     target-branch: report-branch
+    - name: Push report to branch
+      uses: cpina/github-action-push-to-another-repository@main
+      if: always()
+      env:
+        API_TOKEN_GITHUB: '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'
+      with:
+        source-directory: 'cucumber-reports/'
+        destination-github-username: 'txt2021'
+        destination-repository-name: 'Telnyx_Project_cucumber-cypress'
+        user-email: txt2021@gmail.com
+        target-branch: report-branch
         
