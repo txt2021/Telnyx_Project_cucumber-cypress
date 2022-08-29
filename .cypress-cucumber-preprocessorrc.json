@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 18ef835a29ad6e773ca604abf3243d89a7d1d4bb
     "html": {
       "enabled": true,
       "output":"cucumber-reports/index.html"

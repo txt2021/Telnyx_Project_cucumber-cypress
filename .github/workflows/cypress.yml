@@ -34,4 +34,9 @@ jobs:
         destination-github-username: 'txt2021'
         destination-repository-name: 'Telnyx_Project_cucumber-cypress'
         user-email: txt2021@gmail.com
+<<<<<<< HEAD
         target-branch: report-branch
+=======
+        target-branch: report-branch
+        
+>>>>>>> 18ef835a29ad6e773ca604abf3243d89a7d1d4bb
