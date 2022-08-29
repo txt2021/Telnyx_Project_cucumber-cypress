@@ -31,7 +31,7 @@ jobs:
         API_TOKEN_GITHUB: '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'
       with:
         source-directory: 'cucumber-reports/'
-        destination-github-username: 'txt2021@gmail.com'
+        destination-github-username: 'txt2021'
         destination-repository-name: 'Telnyx_Project_cucumber-cypress'
         user-email: txt2021@gmail.com
         target-branch: report-branch
