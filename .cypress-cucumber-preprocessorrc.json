@@ -2,7 +2,7 @@
     
     "html": {
       "enabled": true,
-      "output":"cucumber-reports/telnyx-html-report.html"
+      "output":"cucumber-reports/index.html"
     },
     "stepDefinitions": [
         "[filepath]/**/*.{js,ts}",
