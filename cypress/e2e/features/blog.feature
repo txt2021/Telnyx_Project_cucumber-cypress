@@ -1,6 +1,6 @@
 Feature: Blog page
 
-    Scenario: TC06 - Blog search work on Telnyx
+    Scenario: TC06 -Should check Blog search work 
         Given A user open main Telnyx page
         When A user hover to "Resources" in the header menu
         And A user clicks on "Blog"
@@ -8,14 +8,14 @@ Feature: Blog page
         And A user presses Enter
         Then Search results for "testing" was displayed. Page URL should contains "search?q=testing"
 
-     Scenario: TC07 - Blog filter by product work on Telnyx
+     Scenario: TC07 - Should check blog filter by product work 
         Given A user open main Telnyx page
         When A user hover to "Resources" in the header menu
         And A user clicks on "Blog"
         And A user Clicks on "Fax" button
         Then "Fax APIs, the basics and benefits. " article title was displayed. Page URL should contains "/resources?topic=Fax"
 
-     Scenario: TC08 - Blog filter by content work on Telnyx
+     Scenario: TC08 - Should check blog filter by content work 
         Given A user open main Telnyx page
         When A user hover to "Resources" in the header menu
         And A user clicks on "Blog"

@@ -1,6 +1,6 @@
 Feature: Saving calculator
 
-    Scenario: TC09 - Savings Calculator work with default settings on Telnyx
+    Scenario: TC09 - Should check Savings Calculator work with default settings 
         Given A user open main Telnyx page
         When A user hover to "Resources" in the header menu
         And A user clicks on "Savings Calculator"
@@ -9,7 +9,7 @@ Feature: Saving calculator
         And A user clicks on "Continue" button
         Then In "Your savings" area "$4,152" number was displayed. User stays on the same page
 
-    Scenario: TC10 - Savings Calculator work with custom settings on Telnyx
+    Scenario: TC10 - Should check Savings Calculator work with custom settings
         Given A user open main Telnyx page
         When A user hover to "Resources" in the header menu
         And A user clicks on "Savings Calculator"
