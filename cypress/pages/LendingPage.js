@@ -2,23 +2,23 @@ const page = require('./Page.js');
 
 
 
-const signupButton = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > ul.sc-9d98fd33-5.dVueFL.sc-9d98fd33-7.kpJVrZ > li:nth-child(2) > div > a';
-const blogButton = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(6) > div > div > div.sc-7b3980dc-8.iWLbyI > div > div:nth-child(3) > a > div > div.sc-7b3980dc-11.jZzYTn';
+const signupButton = 'header>div li [href="/sign-up"]';
+const blogButton = 'header a[href="/resources"]>div>div>span';
 const compareSection = '[class="mchNoDecorate"] span';
-const waitlistButton = '[class="sc-f97529d6-0 bjUuRN sc-897a80e3-0 kdgXXO mchNoDecorate"][href="/products/storage"]';
-const calcButton = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(6) > div > div > div.sc-7b3980dc-8.iWLbyI > div > div:nth-child(6) > a > div > div.sc-7b3980dc-11.jZzYTn'
-const productsButton = '[class="sc-f97529d6-0 bjUuRN sc-b74bae4-0 sc-b74bae4-1 fVDMEa dwPtxB mchNoDecorate"][href ="/products"]';
-const solutionsButton = '[class="sc-f97529d6-0 bjUuRN sc-b74bae4-0 sc-b74bae4-1 fVDMEa dwPtxB mchNoDecorate"][href="/solutions"]';
-const pricingButton = '[class="sc-f97529d6-0 bjUuRN sc-b74bae4-0 sc-b74bae4-1 fVDMEa dwPtxB mchNoDecorate"][href="/pricing"]';
-const footer = '[class="sc-7b6c9f9b-3 iznSjj"]';
+const waitlistButton = 'header span>a[href="/products/storage"]';
+const calcButton = 'header a[href="/twilio-pricing-calculator"] div>div>span'
+const productsButton = 'header a[href ="/products"]';
+const solutionsButton = 'header a[href ="/solutions"]';
+const pricingButton = 'header a[href ="/pricing"]';
+const footer = 'header ~ main ~ footer';
 const facebook = '[href="https://www.facebook.com/Telnyx/"]';
 const twitter = '[href="https://twitter.com/telnyx"]';
-const source1 = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(6) > span'
-const product1 = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(1)'
-const solution1 = '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(3)'
-const price1= '#__next > div.sc-62badcbb-0.gQAeUA > header > div.sc-9d98fd33-1.sc-9d98fd33-2.kectfp.mduJS > div > div.sc-9d98fd33-7.kpJVrZ > ul > li:nth-child(10)'
-const nav_header1= '[class="Text-sc-5o8owa-0 sc-ce3c78c4-2 clNvhv juvWNo"]';
-const nav_header2= '[class="Text-sc-5o8owa-0 sc-e6b6263e-3 clNvhv hEmNaW"] span';
+const source1 = 'header ul~div~div>ul>li:nth-child(6)>span'
+const product1 = 'header ul~div~div>ul>li:nth-child(1)>span'
+const solution1 = 'header ul~div~div>ul>li:nth-child(3)>span'
+const price1= 'header ul~div~div>ul>li:nth-child(10)>span'
+const nav_header1= 'main h1';
+const nav_header2= 'main h1>span';
 const facebook_link = 'a[href="https://www.facebook.com/Telnyx/"]';
 const twitter_link ='a[href="https://twitter.com/telnyx"]';
 

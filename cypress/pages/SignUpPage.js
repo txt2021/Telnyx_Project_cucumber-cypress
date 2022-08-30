@@ -5,7 +5,7 @@ const email = '[id="email"]';
 const passwd = '[id="password"]';
 const email_signup = '[id="email_error"]';
 const pass_signup = '#password_requirements > div';
-const pass_tips = '#password_requirements > div.sc-3f0fa74c-5.dlOEFS';
+const pass_tips = '#password_requirements > div~div';
 
 class SignUpPage {
     

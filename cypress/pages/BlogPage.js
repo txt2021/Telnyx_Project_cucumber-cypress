@@ -1,11 +1,11 @@
 const page = require('./Page.js');
 
 const searchInput = '[id="search"]';
-const faxButton = '#__next > div.sc-62badcbb-0.gQAeUA > main > div > div.sc-438b0f02-1.dTViGT > div.sc-afdc1d86-0.gPPsDG > div:nth-child(1) > ul > li:nth-child(4) > button';
-const newsandeventsButton = '#__next > div.sc-62badcbb-0.gQAeUA > main > div > div.sc-438b0f02-1.dTViGT > div.sc-afdc1d86-0.gPPsDG > div:nth-child(2) > ul > li:nth-child(3) > button';
-const search_res = '[class="Text-sc-5o8owa-0 sc-438b0f02-3 ijJVSH kWhBMu"]';
-const search_header = '#articles > div > a:nth-child(1) > article > div.sc-b43e299b-4.gwdLhq > h2';
-const search_header2 = '#articles > div > a:nth-child(1) > article > div.sc-b43e299b-4.gwdLhq > header > span > span';
+const faxButton = 'div[aria-labelledby="filter-by-product"] ul>li:nth-child(4)>button';
+const newsandeventsButton = 'div[aria-labelledby="filter-by-content"]>ul>li:nth-child(3)>button';
+const search_res = 'div#articles>div:nth-child(1)';
+const search_header = '#articles > div > a:nth-child(1) > article > div > h2';
+const search_header2 = '#articles > div > a:nth-child(1) > article > div > header > span > span';
 
 
 class BlogPage {   
