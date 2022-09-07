@@ -1,15 +1,13 @@
 const page = require('./Page.js');
 
-const voiceapiButton = 'header~div>div>:nth-child(3) ';
+const voiceapiButton = 'header~div>div>:nth-child(3)';
 const continueButton = 'header~div>div>button';
 const plusButton = '#local-numbers+button';
 const minusButton = '[for="local-numbers"]+div>button:nth-child(1)';
 const calc_res = 'header~div>div>h2';
 
 class CalculatorPage {   
-    getUrl(){
-        return cy.url();
-    }
+    
 
     getResult(){
         return cy.get(calc_res)

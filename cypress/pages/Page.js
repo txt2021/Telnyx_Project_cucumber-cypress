@@ -12,7 +12,9 @@ type(locator,text){
     cy.get(locator).type(text,{ force: true });
 }
 
-
+getUrl(){
+    return cy.url();
+}
 
 }
 module.exports = new Page()

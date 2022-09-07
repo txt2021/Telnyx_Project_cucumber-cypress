@@ -5,3 +5,4 @@ cucumber-reports/
 screenshots/
 cucumber-messages.ndjson
 reports/
+cypress/fixtures

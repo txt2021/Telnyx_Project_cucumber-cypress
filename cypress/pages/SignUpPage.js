@@ -37,9 +37,7 @@ class SignUpPage {
         return cy.get(pass_tips)
     }
 
-    getUrl(){
-        return cy.url();
-    }
+    
 
 }
 module.exports = new SignUpPage()

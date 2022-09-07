@@ -4,7 +4,7 @@ Feature: Blog page
         Given A user open main Telnyx page
         When A user hover to "Resources" in the header menu
         And A user clicks on "Blog"
-        And A user enters "testing" in the search field
+        And A user enters "testing" in "search" field
         And A user presses Enter
         Then Search results for "testing" was displayed. Page URL should contains "search?q=testing"
 
@@ -12,7 +12,7 @@ Feature: Blog page
         Given A user open main Telnyx page
         When A user hover to "Resources" in the header menu
         And A user clicks on "Blog"
-        And A user Clicks on "Fax" button
+        And A user clicks on "Fax" button
         Then "Fax APIs, the basics and benefits. " article title was displayed. Page URL should contains "/resources?topic=Fax"
 
      Scenario: TC08 - Should check blog filter by content work 

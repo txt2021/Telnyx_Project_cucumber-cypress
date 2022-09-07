@@ -10,9 +10,7 @@ const search_header2 = '#articles > div > a:nth-child(1) > article > div > heade
 
 class BlogPage {   
 
-    getUrl(){
-        return cy.url();
-    }
+   
 
     getResult(){
         return cy.get(search_res)

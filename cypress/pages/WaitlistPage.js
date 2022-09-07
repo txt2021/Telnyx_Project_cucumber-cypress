@@ -13,9 +13,7 @@ class WaitlistPage {
     getForm(){
         return cy.get(waitlist_form)
     }
-    getUrl(){
-        return cy.url();
-    }
+    
 
  
 }

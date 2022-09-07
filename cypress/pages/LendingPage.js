@@ -23,9 +23,7 @@ const facebook_link = 'a[href="https://www.facebook.com/Telnyx/"]';
 const twitter_link ='a[href="https://twitter.com/telnyx"]';
 
 class LendingPage {
-    getUrl(){
-        return cy.url();
-    }
+    
     
     getHeader1(){
         return cy.get(nav_header1)
